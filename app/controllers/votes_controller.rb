@@ -3,11 +3,13 @@ class VotesController < ApplicationController
     render json: count_votes
   end
 
-  def show
-    params[:language_id]
-
+  def create
+    if params[:language_id]
+      Vote.create(language_id: params[:language_id])
+    else
+      render json: {error: 'language_id must be provided'}, status: 400
+    end
   end
-
 
   def count_votes
     Vote.group(:language_id).count
