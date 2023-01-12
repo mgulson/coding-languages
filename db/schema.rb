@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_20_021233) do
+ActiveRecord::Schema.define(version: 2022_12_23_162913) do
 
   create_table "languages", force: :cascade do |t|
     t.string "name"

@@ -1,24 +1,6 @@
-# README
+## Coding Languages
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a backend rails-api only that returns json for 
+users poll of coding languages.  Languages are the coding languages.
+And Votes are votes.  
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
