@@ -12,11 +12,6 @@ namespace :fly do
   #  - failures here prevent deployment
   task :release => 'db:migrate'
 
-  # SEED step
-  # - seeds database
-
-  task :seeds => 'rake db:seed'
-
   # SERVER step:
   #  - changes to the filesystem made here are deployed
   #  - full access to secrets, databases
