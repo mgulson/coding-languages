@@ -12,6 +12,7 @@ processes = []
 
 [deploy]
   release_command = "bin/rails fly:release"
+  seed_command = "bundle exec rails db:seed"
 
 [env]
   PORT = "8080"
