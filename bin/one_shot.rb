@@ -1,0 +1,1 @@
+CreateVotesCsvCommand.new('./tmp/create_votes.csv').call
