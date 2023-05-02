@@ -1,0 +1,2 @@
+class NewModel < ApplicationRecord
+end
