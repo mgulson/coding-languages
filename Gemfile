@@ -45,3 +45,5 @@ gem "pg", "~> 1.4"
 gem 'pry-rails'
 
 gem 'executables'
+
+gem 'rack-cors'
