@@ -176,9 +176,7 @@ GEM
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
     spring (4.1.0)
-    sqlite3 (1.5.4)
-      mini_portile2 (~> 2.8.0)
-    sqlite3 (1.5.4-x86_64-darwin)
+    sqlite3 (1.4.0)
     thor (1.2.1)
     timeout (0.3.1)
     tzinfo (2.0.5)
@@ -204,7 +202,7 @@ DEPENDENCIES
   rails (~> 7.0.4)
   rspec-rails
   spring
-  sqlite3 (~> 1.4)
+  sqlite3 (= 1.4.0)
   tzinfo-data
 
 RUBY VERSION
