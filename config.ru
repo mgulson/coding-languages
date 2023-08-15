@@ -4,3 +4,11 @@ require_relative "config/environment"
 
 run Rails.application
 Rails.application.load_server
+
+require 'rack/cors'
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '/fonts/*', :headers => :any, :methods => :get
+  end
+end
