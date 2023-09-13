@@ -99,6 +99,7 @@ GEM
     mini_portile2 (2.8.1)
     minitest (5.16.3)
     msgpack (1.6.0)
+    mysql2 (0.5.5)
     net-imap (0.3.4)
       date
       net-protocol
@@ -195,6 +196,7 @@ DEPENDENCIES
   byebug
   executables
   listen (~> 3.3)
+  mysql2
   pg (~> 1.4)
   pry-rails
   puma (~> 5.0)

@@ -47,3 +47,5 @@ gem 'pry-rails'
 gem 'executables'
 
 gem 'rack-cors'
+
+gem 'mysql2'
