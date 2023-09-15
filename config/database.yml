@@ -29,6 +29,11 @@ test:
 production:
   adapter: postgresql
   database: coding_languages
-  host: <% ENV['DATABASE_URL'] %>
-  prepared_statements: false
-  advisory_locks: false
+  host: localhost
+  user: jrsuaibemwxzir
+  password: 1c02ab5720e6bae20a75401bc96ebdbad54b5014ad0afa5a376f4ef7b6bfab5f
+  url: <% ENV['DATABASE_URL'] %>
+  port: 5432
+  pool: 5
+  timeout: 5000
+
