@@ -39,7 +39,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rspec-rails", group: [:development, :test]
 
-gem "pg", "~> 1.4"
+gem "pg", "~> 1.1"
 
 gem 'pry-rails'
 
