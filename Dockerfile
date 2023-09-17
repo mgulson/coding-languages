@@ -116,7 +116,7 @@ ARG SERVER_COMMAND="bin/rails fly:server"
 ENV SERVER_COMMAND ${SERVER_COMMAND}
 CMD ${SERVER_COMMAND}
 
-ARG RELEASE_COMMAND="bin/rails db:create"
+ARG RELEASE_COMMAND="bin/rails db:migrate"
 RUN ${RELEASE_COMMAND}
 
 ARG SEED_COMMAND="bundle exec rake db:seed"
