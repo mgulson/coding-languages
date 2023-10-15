@@ -23,7 +23,7 @@ FROM quay.io/evl.ms/fullstaq-ruby:${RUBY_VERSION}-${VARIANT} as base
 
 LABEL fly_launch_runtime="rails"
 
-ARG BUNDLER_VERSION=2.1.4
+ARG BUNDLER_VERSION=2.3.10
 
 ARG RAILS_ENV=production
 ENV RAILS_ENV=${RAILS_ENV}
@@ -116,7 +116,7 @@ ARG SERVER_COMMAND="bin/rails fly:server"
 ENV SERVER_COMMAND ${SERVER_COMMAND}
 CMD ${SERVER_COMMAND}
 
-ARG RELEASE_COMMAND="bin/rails db:migrate"
+ARG RELEASE_COMMAND="bin/rails fly:release"
 RUN ${RELEASE_COMMAND}
 
 ARG SEED_COMMAND="bundle exec rake db:seed"
